@@ -1,41 +1,40 @@
 body {
-  font-family: "Palatino Linotype", "Book Antiqua", "STFangSong", Helvetica, Arial, Vernada, Tahoma, STXihei, "Microsoft YaHei", "Songti SC", SimSun, Heiti, sans-serif;
-  font-size: 18px;
-  padding: 2% 5% 5% 5%;
   line-height: 150%;
   border: 1px solid LightGrey;
-/*margin: 5% 20% 5% 20%;//desktop version*/
-/*width: 50%; // desktop version*/
 }
-.pannel .panel-content H1 {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+.panel-content h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
 }
-.pannel .panel-content H2 {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-  margin-bottom: 40px;
-  padding: 5px;
-  border-bottom: 2px LightGrey solid;
-  width: 90%;
+.panel-content h2 {
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+/*border-bottom: 2px LightGrey solid;*/
   line-height: 150%;
   color: #666;
+  font-size: 2rem;
+  font-weight: bold;
 }
-.pannel .panel-content H3 {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-  margin-top: 40px;
-  margin-bottom: 30px;
-  border-bottom: 1px LightGrey solid;
+.panel-content H3 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  width: 80%;
+  line-height: 150%;
+  font-size: 1.5rem;
+  color: #666;
+  font-weight: bold;
+}
+.panel-content H4 {
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
   width: 80%;
   line-height: 150%;
   color: #666;
+  font-weight: bold;
+  font-size: 1.2rem;
 }
-.pannel .panel-content H4 {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
-  margin-top: 40px;
-  margin-bottom: 30px;
-  border-bottom: 1px LightGrey solid;
-  width: 80%;
-  line-height: 150%;
-  color: #666;
+ul {
+  padding-left: 0.5rem;
 }
 li {
   margin-left: 10px;
@@ -70,7 +69,7 @@ hr {
   color: LightGrey;
 }
 p {
-  text-indent: 2em;
+  text-indent: 0em;
 }
 table {
   font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
